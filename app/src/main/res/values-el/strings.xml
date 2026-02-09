@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="app_title">📝 NoteApp</string>
+    <string name="theme">Θέμα</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκούρο</string>
+    <string name="theme_system">Όπως στο σύστημα</string>
+    <string name="notes_empty">Δεν υπάρχουν ακόμα σημειώσεις\n\nΞεκινήστε να προσθέτετε παρακάτω 👇</string>
+    <string name="hint_new_note">Εισάγετε σημείωση…</string>
+    <string name="hint_edit_note">Επεξεργαστείτε τη σημείωση…</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="add_note">✅ Προσθήκη σημείωσης</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="delete_note_title">Διαγραφή σημείωσης;</string>
+    <string name="delete_note_message">Η σημείωση θα διαγραφεί οριστικά.</string>
+</resources>

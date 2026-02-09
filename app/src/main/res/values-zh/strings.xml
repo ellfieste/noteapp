@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="app_title">📝 NoteApp</string>
+    <string name="theme">主题</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="notes_empty">还没有笔记\n\n在下方开始添加笔记 👇</string>
+    <string name="hint_new_note">输入笔记…</string>
+    <string name="hint_edit_note">编辑笔记…</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="add_note">✅ 添加笔记</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="delete_note_title">删除笔记？</string>
+    <string name="delete_note_message">此笔记将被永久删除。</string>
+</resources>

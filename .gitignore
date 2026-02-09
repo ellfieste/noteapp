@@ -1,0 +1,106 @@
+# Built application files
+*.apk
+*.ap_
+
+# Files for the ART/JVM runtime
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+build/
+.gradle/
+captures/
+.externalNativeBuild/
+.idea/libraries/
+local.properties
+.cxx/
+.DS_Store
+.settings/
+.project
+.classpath
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/codeStyles/
+.idea/dictionaries/
+.idea/deploymentTargetDropDown.xml
+.idea/navEditor.xml
+.idea/compiler.xml
+.idea/kotlinc.xml
+.idea/vcs.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/render.xml
+.idea/resourceManager.xml
+.idea/dynamic.xml
+.idea/modules/
+.idea/runConfigurations/
+.idea/componentVersions.xml
+.idea/cached-build-config.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/encodings.xml
+.idea/copyright/
+.idea/watcherTasks.xml
+.idea/uiDesigner.xml
+.idea/appInsights/
+
+# Local configuration file (sdk, ndk, etc)
+local.properties
+
+# AOSP files
+.vs/
+*.iml
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build files (cmake, ndk-build)
+# For example, CMake toolchain files:
+# .externalNativeBuild/
+# Android NDK modules:
+# .cxx/
+
+# Android Studio and IntelliJ IDEA files
+.idea/
+.vscode/
+
+# Gradle files
+.gradle/
+build/
+
+# Lint files
+lint-results.html
+lint-results.xml
+
+# Proguard files
+proguard-project.txt
+proguard-rules.pro
+
+# Any .iml file
+*.iml
+
+# Mac files
+.DS_Store
+
+# Log files
+*.log
+
+# Crashlytics files
+crashlytics-build.properties
+
+# Room auto-generated schemas
+schemas/
+
+# Configuration for Android Studio
+gradle.properties
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+
+# Sensitive data
+secrets.properties

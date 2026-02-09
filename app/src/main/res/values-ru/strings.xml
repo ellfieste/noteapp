@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="app_title">📝 NoteApp</string>
+    <string name="theme">Тема</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="notes_empty">Заметок пока нет\n\nНачните добавлять заметки ниже 👇</string>
+    <string name="hint_new_note">Введите заметку…</string>
+    <string name="hint_edit_note">Редактируйте заметку…</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="add_note">✅ Добавить заметку</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_note_title">Удалить заметку?</string>
+    <string name="delete_note_message">Заметка будет удалена без возможности восстановления.</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="app_title">📝 NoteApp</string>
+    <string name="theme">Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System default</string>
+    <string name="notes_empty">No notes yet\n\nStart adding notes below 👇</string>
+    <string name="hint_new_note">Enter a note…</string>
+    <string name="hint_edit_note">Edit your note…</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="add_note">✅ Add note</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_note_title">Delete note?</string>
+    <string name="delete_note_message">This note will be permanently deleted.</string>
+</resources>
