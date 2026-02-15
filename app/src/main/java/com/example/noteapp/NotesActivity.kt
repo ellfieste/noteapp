@@ -34,10 +34,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.view.WindowCompat
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.launch
-import com.example.noteapp.R
 import java.text.DateFormat
 import java.util.*
 
@@ -47,13 +47,22 @@ class NotesActivity : ComponentActivity() {
         setContent {
             val context = LocalContext.current
             val themeMode = remember { mutableStateOf(loadThemeMode(context)) }
-            NoteAppTheme(
-                darkTheme = when (themeMode.value) {
-                    ThemeMode.LIGHT -> false
-                    ThemeMode.DARK -> true
-                    ThemeMode.SYSTEM -> isSystemInDarkTheme()
+            val darkTheme = when (themeMode.value) {
+                ThemeMode.LIGHT -> false
+                ThemeMode.DARK -> true
+                ThemeMode.SYSTEM -> isSystemInDarkTheme()
+            }
+            val window = (context as? ComponentActivity)?.window
+
+            DisposableEffect(darkTheme) {
+                if (window != null) {
+                    WindowCompat.setDecorFitsSystemWindows(window, false)
+                    val insetsController = WindowCompat.getInsetsController(window, window.decorView)
+                    insetsController.isAppearanceLightStatusBars = !darkTheme
                 }
-            ) {
+                onDispose { }
+            }
+            NoteAppTheme(darkTheme = darkTheme) {
                 NotesScreen(
                     themeMode = themeMode.value,
                     onThemeModeChange = { mode ->
@@ -195,7 +204,7 @@ fun NotesScreen(
                         text = stringResource(R.string.app_title),
                         fontSize = 22.sp,
                         fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary
+                        color = MaterialTheme.colorScheme.primary,
                     )
                 },
                 actions = {
